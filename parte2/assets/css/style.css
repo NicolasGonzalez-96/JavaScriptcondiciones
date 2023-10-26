@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.stickers {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.stickers > .sticker > img{
+    display: flex;
+    width: 400px;
+    padding-right: 50px;
+}
+
+.total {
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.total > button {
+    width: 200px;
+    background-color: bisque;
+    transition: background-color 0.5s;
+}
+
+.total > button:hover {
+    background-color: gold;
+    cursor: pointer;
+}
+
+.total > p {
+    text-align: center;
+}

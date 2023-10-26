@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conteo stickers</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <h4>Puedes llevar hasta 10 stickers en total.</h4>
+    <div class="stickers">
+        <div class="sticker">
+            <img src="./assets/imgs/Books-Sticker.png" alt="imagen">
+            <input type="number" id="sticker1input" min="0" max="10">
+        </div>
+        <div class="sticker">
+            <img src="./assets/imgs/panda.png" alt="imagen">
+            <input type="number" id="sticker2input" min="0" max="10">
+        </div>
+        <div class="sticker">
+            <img src="./assets/imgs/piña.png" alt="imagen">
+            <input type="number" id="sticker3input" min="0" max="10">
+        </div>
+    </div>
+    <div class="total">
+        <p id="resultado"></p>
+        <button id="calcular">verificar</button>
+    </div>
+        
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

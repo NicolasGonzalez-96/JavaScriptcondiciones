@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.password {
+    display: flex;
+    justify-content: center;
+    padding-top: 150;
+}
+
+.resultado {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.resultado p {
+    padding-left: 15px;
+}
